@@ -6,11 +6,19 @@
     font-size: 18px;
     line-height: 22px;
     color: #FFFFFF;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 336px;
 }
 @media screen and (max-width: 495px) {
     .profile__subheading {
         font-size: 14px;
         line-height: 17px;
         justify-self: center;
+        max-width: 282px;
     }
 }

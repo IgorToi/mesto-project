@@ -7,6 +7,12 @@
     padding-bottom: 7px;
     justify-content: space-between;
     justify-self: end;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0);
+    background-image: url(../../../images/profile-edit-button.svg);
+    border: none;
+    margin-left: 18px;
+    
 }
 .profile__edit:hover {
     opacity: 0.8;
@@ -16,5 +22,6 @@
     .profile__edit {
         grid-column: 3/4;
         padding-left: 10px;
+        margin-left: 10px;
     }
 }
