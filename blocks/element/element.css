@@ -1,0 +1,11 @@
+.element {
+    display: flex;
+    flex-direction: column;
+    max-width: 282px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    align-self: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}

@@ -1,0 +1,10 @@
+.profile__info {
+    max-width: 336px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: max-content max-content;
+    align-self: center;
+    grid-template-areas:
+    "heading heading"
+    "subheading subheading"
+}

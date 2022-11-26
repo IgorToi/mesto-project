@@ -1,0 +1,22 @@
+.profile__heading {
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin: 0px;
+    text-align: left;
+    white-space: nowrap;
+    max-width: 294px;
+    width: 100%;
+}
+@media screen and (max-width: 495px) {
+    .profile__heading {
+        font-size: 27px;
+        line-height: 33px;
+        align-self: center;
+        justify-self: center;
+        grid-column: 1/3;
+    }
+}

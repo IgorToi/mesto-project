@@ -1,0 +1,14 @@
+.profile__avatar {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border-radius:50%;
+    box-sizing:border-box;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+@media screen and (max-width: 406px) {
+    .profile__avatar  {
+        width: 168px;
+        height: 127px;
+    }
+}

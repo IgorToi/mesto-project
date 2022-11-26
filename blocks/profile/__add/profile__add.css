@@ -1,0 +1,22 @@
+.profile__add {
+    width: 150px;
+    height: 50px;
+    border: 2px solid #FFFFFF;
+    border-radius: 2px;
+    align-self: center;
+    display: flex;
+    justify-content: flex-end;
+    background-image: url(/images/profile-add-short.svg);
+}
+.profile__add:hover {
+    opacity: 0.8;
+}
+@media screen and (max-width: 660px) {
+    .profile__add {
+        width: 282px;
+        height: 50px;
+        background-image: url(/images/profile-add-long.svg);
+        margin-top: 36px;
+        background-repeat: no-repeat;
+    }
+}

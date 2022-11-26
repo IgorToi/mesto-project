@@ -1,0 +1,14 @@
+.popup__item {
+    display: block;
+    border: 0;
+    width: 100%;
+    box-sizing:inherit;
+    border-bottom: 1px solid rgb(0, 0, 0, .2);
+    background-color: transparent;
+    margin: 15px 0px 0px 0px;
+    padding-bottom: 13px;
+    padding-top: 13px;
+    font-size: 14px;
+    line-break: auto;
+    font-family: 'Inter', Arial, sans-serif;
+}

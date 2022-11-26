@@ -1,0 +1,20 @@
+.footer {
+    max-width: 318px;
+    width: 100%;
+    padding-left: 200px; 
+    -webkit-background-clip: padding-box;
+    align-self: flex-start;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing:content-box;
+    padding-top: 67px;
+    padding-bottom: 67px;
+}
+@media screen and (max-width: 886px) {
+    .footer  {
+        padding-left: 19px; 
+        padding-top: 48px;
+        padding-bottom: 36px;
+        padding-right: 19px; 
+    }
+} 
