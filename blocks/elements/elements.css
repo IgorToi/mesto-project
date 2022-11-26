@@ -17,3 +17,9 @@
         grid-template-columns: repeat(1, fit-content(282px));
     }
 }
+
+@media screen and (max-width: 285px) {
+    .elements {
+        grid-template-columns: repeat(1, fit-content(150px));
+    }
+}

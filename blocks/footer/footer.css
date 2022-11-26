@@ -18,3 +18,19 @@
         padding-right: 19px; 
     }
 } 
+@media screen and (max-width: 886px) {
+    .footer  {
+        padding-left: 19px; 
+        padding-top: 48px;
+        padding-bottom: 36px;
+        padding-right: 19px; 
+    }
+} 
+@media screen and (max-width: 319px) {
+    .footer  {
+        padding-left: 0px; 
+        padding-right: 0px; 
+        box-sizing:border-box;
+        width: 90%;
+    }
+} 
