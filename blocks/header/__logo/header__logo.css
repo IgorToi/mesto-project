@@ -1,6 +1,6 @@
 .header__logo {
     padding-bottom: 41px;
-    background-image: url(/images/header-logo-big.svg);
+    background-image: url(../../../images/header-logo-big.svg);
     background-repeat: no-repeat;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: content-box;
@@ -12,7 +12,7 @@
 }
 @media screen and (max-width: 660px) {
     .header__logo  {
-        background-image: url(/images/header-logo-small.svg);
+        background-image: url(../../../images/header-logo-small.svg);
         padding-bottom: 31px;
         min-height: 55px;
         background-size: contain;

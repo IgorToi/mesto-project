@@ -8,7 +8,7 @@
     z-index: 100;
     padding: 0px;
     background: rgba(0, 0, 0, 0);
-    background-image: url(/images/popup-close-icon.svg);
+    background-image: url(images/popup-close-icon.svg);
     border: none;
     background-repeat: no-repeat;
 } 
@@ -17,7 +17,7 @@
 }
 @media screen and (max-width: 525px) {
     .popup__toggle-image  {
-        background-image: url(/images/popup-close-icon-small.svg);
+        background-image: url(images/popup-close-icon-small.svg);
         top: -30px;
         left: 262px;
     }
