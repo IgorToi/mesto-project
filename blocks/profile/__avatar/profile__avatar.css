@@ -2,13 +2,16 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     border-radius:50%;
-    box-sizing:border-box;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 24px;
+    width: 120px;
+    height: 120px;
 }
-@media screen and (max-width: 406px) {
-    .profile__avatar  {
-        width: 168px;
-        height: 127px;
+@media screen and (max-width: 320px) {
+    .profile__avatar {
+        margin-right: 0px;
+        margin-bottom: 27px;
     }
 }
+

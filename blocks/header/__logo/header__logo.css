@@ -6,16 +6,17 @@
     -moz-box-sizing: content-box;
     box-sizing:border-box;
     max-width: 142px;
-    min-height: 74px;
-    background-size: contain;
+    background-size: 142px 33px;
 
 }
 @media screen and (max-width: 660px) {
     .header__logo  {
-        background-image: url(../../../images/header-logo-small.svg);
-        padding-bottom: 31px;
         min-height: 55px;
-        background-size: contain;
-        
+    }
+}
+@media screen and (max-width: 320px) {
+    .header__logo  {
+        padding-bottom: 31px;
+        background-size: 103.74px 24.4px;
     }
 }

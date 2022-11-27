@@ -6,3 +6,9 @@
     -moz-box-sizing: border-box;
     box-sizing:border-box;
 }
+@media screen and (max-width: 530px) {
+    .popup__input-container  {
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+}

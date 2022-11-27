@@ -3,9 +3,13 @@
     height: 100%;
     position: fixed;
     left: 0px;
+    top: 0px;
     display: none;
     background: rgba(0, 0, 0, 0.5);
     margin: 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 

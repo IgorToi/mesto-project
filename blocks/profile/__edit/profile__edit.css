@@ -4,24 +4,34 @@
     display: flex;
     align-self: end;
     justify-self: center;
-    padding-bottom: 7px;
     justify-content: space-between;
     justify-self: end;
     cursor: pointer;
     background: rgba(0, 0, 0, 0);
-    background-image: url(../../../images/profile-edit-button.svg);
-    border: none;
-    margin-left: 18px;
-    
+    background-image: url(../../../images/profile-edit.svg);
+    border: 1px solid #FFFFFF;
+    margin-left: 22px;
+    margin-bottom: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 10px 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing:content-box;
+    padding: 0px;
+    margin-bottom: 8px; 
 }
 .profile__edit:hover {
-    opacity: 0.8;
+    opacity: 0.6;
     
 }
 @media screen and (max-width: 495px) {
     .profile__edit {
+        width: 18px;
+        height: 18px;
         grid-column: 3/4;
-        padding-left: 10px;
         margin-left: 10px;
+        background-size: 7.5px 7.5px;
+        margin-bottom: 5px;
     }
 }

@@ -1,25 +1,28 @@
 .popup__toggle-image {
     position: relative;
-    width: 33px;
+    max-width: 33px;
     height: 33px;
-    top: -40px;
-    left: 430px;
     z-index: 100;
+    top: -340px;
+    right: -435px;
     background: rgba(0, 0, 0, 0);
     padding: 0px;
-    background-image: url(/images/popup-close-icon.svg);
+    background-image: url(../../../images/popup-close-icon.svg);
     border: none;
     background-repeat: no-repeat;
+    background-size: contain;
     cursor: pointer;
+    display: flex;
 } 
 .popup__toggle-image:hover {
-    opacity: 0.8;
+    opacity: 0.6;
 }
 @media screen and (max-width: 525px) {
     .popup__toggle-image  {
-        background-image: url(/images/popup-close-icon-small.svg);
-        top: -30px;
-        left: 262px;
+        top: -338px;
+        right: -258px;
+        max-width: 20px;
+        height: 20px;
     }
 }
 
