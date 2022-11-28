@@ -1,8 +1,12 @@
 .profile__user {
     display: flex;
     flex-direction: row;
+    -webkit-background-clip: padding-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing:border-box;
 }
-@media screen and (max-width: 406px) {
+@media screen and (max-width: 502px) {
     .profile__user  {
         flex-direction: column;
         justify-content: center;

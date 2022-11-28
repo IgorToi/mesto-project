@@ -3,15 +3,11 @@
     height: 24px;
     display: flex;
     align-self: end;
-    justify-self: center;
-    justify-content: space-between;
-    justify-self: end;
     cursor: pointer;
     background: rgba(0, 0, 0, 0);
     background-image: url(../../../images/profile-editnew.svg);
     border: 1px solid #FFFFFF;
-    margin-left: 22px;
-    margin-bottom: 15px;
+    margin-left: 16px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 10px 10px;
