@@ -9,7 +9,7 @@
     margin-bottom: 0px;
 }
 @media screen and (max-width: 320px) {
-    .footer  {
+    .footer__text  {
         font-size: 14px;
         line-height: 17px;
         padding-left: 19px;
